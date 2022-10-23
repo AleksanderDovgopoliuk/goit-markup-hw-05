@@ -739,8 +739,17 @@ ul {
   right: 8px;
   top: 8px;
   background-color: transparent;
-  border-radius: 50%;
+  border-radius: 5px;
   width: 30px;
   height: 30px;
   border: 1px solid #000000;
+}
+
+.modal-close-icon {
+  display: flex;
+  width: 11px;
+  height: 11px;
+  justify-content: center;
+  align-items: center;
+  fill: rgb(0, 0, 0);
 }
